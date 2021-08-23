@@ -1,0 +1,31 @@
+.row{
+    padding: 10px;
+}
+.row_movies{
+   display: flex;
+   flex-direction: row;
+   overflow-x:scroll;
+   overflow-y: hidden;
+   padding: 20px;
+   padding-left:30px;
+}
+.row_movies::-webkit-scrollbar{
+    display: none;
+ }
+.row_movies img{
+    object-fit: contain;
+    width: 100%;
+    margin-right: 10px;
+    transition:.5s ease-in-out;
+    cursor:pointer;
+}
+.isOrigin{
+    max-height: 300px; 
+}
+.isNotOrigin{
+    max-height: 150px;
+}
+
+.row_movies img:hover{
+   transform: scale(1.06,1.08);
+}

@@ -1,0 +1,25 @@
+.nav{
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    position:fixed;
+    top:0;
+    z-index:200;
+    transition:0.4s ease-in-out;
+}
+.back{
+    background-color:black;
+}
+.nav_logo,.nav_avatar{
+    cursor:pointer;
+}
+.nav_avatar{
+    position:fixed;
+    right:20px;
+    width:40px;
+}
+.nav_logo{
+    width:100px;
+}
